@@ -22,6 +22,12 @@ Go to the project directory
 
     cd nyt-api
 
+Copy `.env.example` to `.env`
+
+    cp .env.example .env
+
+- Update all missing values.
+
 Install dependencies
 
     npm i
