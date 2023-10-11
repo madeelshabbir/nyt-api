@@ -1,0 +1,23 @@
+{
+  "name": "nyt-api",
+  "version": "1.0.0",
+  "description": "API to fetch Top Stories from The New York Times",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madeelshabbir/nyt-api.git"
+  },
+  "author": "Adeel Shabbir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madeelshabbir/nyt-api/issues"
+  },
+  "homepage": "https://github.com/madeelshabbir/nyt-api#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
