@@ -10,7 +10,6 @@ export class NYTBase {
   }
 
   async request(route, method = DEFAULT_REQUEST_METHOD, params= {}) {
-    console.log(this.BASE_URL + route);
     try {
       const response = await axios.request({
         method,
@@ -25,7 +24,7 @@ export class NYTBase {
     } catch (err) {
       throw new UnprocessableEntityError(
         err.response?.data.fault.faultstring ||
-        'Unable to connect to The New York Times API'
+-        'Unable to connect to The New York Times API'
       );
     }
   }
