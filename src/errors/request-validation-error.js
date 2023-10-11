@@ -1,4 +1,3 @@
-
 import { CustomError } from './custom-error.js';
 
 export class RequestValidationError extends CustomError {

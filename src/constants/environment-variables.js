@@ -6,4 +6,5 @@ export const {
   PORT,
   NYT_API_BASE_URL,
   NYT_API_KEY,
+  CLIENT_HOST,
 } = process.env;

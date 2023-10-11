@@ -1,6 +1,6 @@
-import { UnprocessableEntityError } from './unprocessable-entity-error.js';
+import { CustomError } from './custom-error.js';
 
-export class NotFoundError extends UnprocessableEntityError {
+export class NotFoundError extends CustomError {
   constructor() {
     super(404, 'Not found');
   }
